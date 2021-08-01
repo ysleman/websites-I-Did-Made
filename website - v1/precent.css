@@ -1,0 +1,181 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Otomanopee One;
+  overflow: hidden;
+}
+.container-fluid{
+  width: 100%;
+  height: 100vh;
+  background-color: #525252; /* best color */
+}
+.container{
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#selcted{
+  color: #01b7ff;
+}
+.container h1{
+  color: Black;
+  cursor: pointer;
+}
+.container ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container ul li{
+  list-style: none;
+
+  color: Black;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 25px;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.container ul li:hover{
+  color: #01b7ff;
+}
+.container .btn{
+  width: 170px;
+  height: 45px;
+  background-color: #01b7ff;
+  color: Black;
+  border-radius: 25px;
+  border: 2px solid #01b7ff;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.container .btn:hover{
+  background-color: transparent;
+  color: #01b7ff;
+  border: 2px solid #01b7ff;
+}
+
+/* Start of under nav */
+.undernav{
+  position: relative;
+  width: 100%;
+  height: calc(200px);
+  text-align: center;
+  display: flex;
+}
+.undernav .img{
+  object-fit: cover;
+  width: 100%;
+  height: calc(200px);
+}
+.h1-undernav{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: white;
+}
+/* End of under nav */
+
+/* Start content*/
+.content{
+  width: 100%;
+  height: calc(100%-(80px+20%));
+  margin-left: 20%;
+  display: flex;
+}
+.content h4{
+  padding-top: 100px;
+  color: #01b7ff;
+}
+.content h1{
+  padding-top: 20px;
+  font-size: 60px;
+  color: Black;
+}
+.content p{
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  color: Black;
+  position: absolute;
+  left: 40%;
+  top: 70%;
+}
+.content .btn{
+  width: 170px;
+  height: 50px;
+  background-color: #01b7ff;
+  color: Black;
+  border-radius: 25px;
+  border: 2px solid #01b7ff;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 15px;
+  transition: 0.5s;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.content .btn:hover{
+  background-color: transparent;
+  color: #01b7ff;
+  border: 2px solid #01b7ff;
+}
+.content .img{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* End content*/
+
+
+/* This is overlay start */
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.overlay-icons{
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  font-size: 20px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+/* This is overlay end */
+
+.progressbar3{
+  margin: 20px;
+}

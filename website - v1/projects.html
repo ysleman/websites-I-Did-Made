@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--links for css , and other stuff-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="projects.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/5d14fcba74.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="socialmediaicons.css">
+    <!--end for links-->
+    <title>NOT CH V1.1</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- start of nav bar-->
+      <div class="container">
+        <h1>NOT CH</h1>
+        <ul>
+        <a href="index.html" style="text-decoration: none;"><li>HOME</li></a>
+        <li id="selcted">Projects</li>
+        <a href="prot-file.html" style="text-decoration: none;"><li>PORTFOLIO</li></a>
+        <a href="precent.html" style="text-decoration:none;"><li>Precent</li></a>
+        </ul>
+        <button class="btn" onclick="on()">Let's Talk</button>
+      </div>
+      <!-- end of nav bar-->
+      <div class="undernav">
+        <img class="img"src="code.jpg">
+        <h1 class="h1-undernav">Projects</h1>
+      </div>
+        <div class="content">
+          <img class="img" src="still-in-work.jpg">
+          <p>Still in Work Check Later.</p>
+        </div>
+    </div>
+
+    <!-- This is overlay start-->
+
+        <div id="overlay" onclick="off()">
+          <div id="text">I Will Like You To Talk With Me</div>
+          <!-- Add font awesome icons -->
+             <!-- <i class="fab fa-discord"></i>
+              <a href="#" class="fa fa-github"></a> -->
+              <ul>
+                <li class="overlay-icons">
+                  <a href="https://github.com/xtoyx" target="_blank" class="fa fa-github"></a>
+                  <a href="https://www.discord.com/addme/toy#1534" target="_blank" class="fab fa-discord"></a>
+                </li>
+              </ul>
+        </div>
+        <script src="codes.js"></script>
+    <!-- This is overlay end-->
+  </body>
+</html>

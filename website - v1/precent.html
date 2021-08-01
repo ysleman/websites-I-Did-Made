@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!--links for css , and other stuff-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/5d14fcba74.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="socialmediaicons.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="precent.css">
+    <!--end for links-->
+    <title>NOT CH V1.1</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- start of nav bar-->
+      <div class="container">
+        <h1>NOT CH</h1>
+        <ul>
+        <a href="index.html" style="text-decoration: none;"><li>HOME</li></a>
+        <a href="projects.html" style="text-decoration:none ;"><li>Projects</li></a>
+        <a href="prot-file.html" style="text-decoration: none;"><li>PORTFOLIO</li></a>
+        <a href="precent.html" style="text-decoration:none;"><li id="selcted">Precent</li></a>
+        </ul>
+        <button class="btn" onclick="on()">Let's Talk</button>
+      </div>
+      <h1>How Much I Have progressed</h1>
+      <div class="progressbar3">
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id ="prge"style="width:1%"></div>
+          </div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" id ="prge1"style="width:1%"></div>
+          </div>
+          <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" id ="prge2"style="width:1%"></div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" id ="prge3"style="width:1%"></div>
+              </div>
+          </div>
+            <br>
+            <button class="btn" id="Show" onclick="move()">Show</button>
+    </div>
+
+    <!-- This is overlay start-->
+
+        <div id="overlay" onclick="off()">
+          <div id="text">I Will Like You To Talk With Me</div>
+          <!-- Add font awesome icons -->
+             <!-- <i class="fab fa-discord"></i>
+              <a href="#" class="fa fa-github"></a> -->
+              <ul>
+                <li class="overlay-icons">
+                  <a href="https://github.com/xtoyx" target="_blank" class="fa fa-github"></a>
+                  <a href="https://www.discord.com/addme/toy#1534" target="_blank" class="fab fa-discord"></a>
+                </li>
+              </ul>
+        </div>
+        <script src="codes.js"></script>
+        <script src="pro-code.js"></script>
+    <!-- This is overlay end-->
+  </body>
+</html>
